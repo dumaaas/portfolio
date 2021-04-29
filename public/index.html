@@ -14,14 +14,12 @@
 </head>
 
 <body>
-    <header class="h-[90px] bg-[#191819]">
-        <div class="flex justify-between w-[1300px] mx-auto px-[15px] ">
-            <div class="logo">
-                <p class="pt-[20px] text-[#E05E6A] font-semibold tracking-widest text-[30px] roboto">
-                    Marko
-                </p>
-            </div>
-            <div class="pt-[30px] text-[#424242] text-[20px] roboto space-x-[15px]">
+    <header class="z-10 fixed w-full h-[90px] bg-[#191819]">
+        <div class="flex justify-between w-[1300px] mx-auto px-[30px] ">
+            <div class=" font-bold logo text-[18px] text-[#a9a9b3] pt-[32px]">
+                <p id="logo" class=" typewriter monospace">> $ cd /portfolio/</p>
+              </div>
+            <div class="text-[18px] text-[#a9a9b3] pt-[32px] monospace space-x-[15px]">
                 <a>
                     Contact
                 </a>
@@ -34,8 +32,8 @@
             </div>
     </header>
     <main>
-        <section class="bg-[#252628]">
-            <div class="flex justify-between w-[1300px] mx-auto px-[15px]">
+        <section class="pt-[200px] bg-[#252628]">
+            <div class="flex justify-between w-[1300px] mx-auto px-[30px]">
                 <div class="pt-[100px]">
                     <h1 class="text-[42px] text-white font-semibold roboto">
                         <span class="inline-block">H</span>
@@ -51,7 +49,7 @@
                         <span class="inline-block text-[#E05E6A] ml-[-7px]">k</span>
                         <span class="inline-block text-[#E05E6A] ml-[-7px]">o</span>
                         <span class="inline-block ml-[-7px]">,</span>
-                        <span class="block mt-[-7px]"></span>
+                        <span class="block mt-[-7px] change-text"></span>
                         <span class="inline-block">W</span>
                         <span class="inline-block ml-[-7px]">e</span>
                         <span class="inline-block ml-[-7px]">b</span>
@@ -91,7 +89,8 @@
                 <div class="hexagon-gallery">
                     <div class="hex-box">
                         <div class="hex-inner">
-                            <div class="hex hex-front"><img src="https://dumaaas.github.io/portfolio/public/images/html5.png" alt="some"></div>
+                            <div class="hex hex-front"><img
+                                    src="https://dumaaas.github.io/portfolio/public/images/html5.png" alt="some"></div>
                             <div class="hex hex-back">
                                 <p class="text-[#E05E6A] roboto mt-[50%]">
                                     Ja sam HTML
@@ -101,7 +100,8 @@
                     </div>
                     <div class="hex-box">
                         <div class="hex-inner">
-                            <div class="hex hex-front"><img src="https://dumaaas.github.io/portfolio/public/images/css3.png" alt="some"></div>
+                            <div class="hex hex-front"><img
+                                    src="https://dumaaas.github.io/portfolio/public/images/css3.png" alt="some"></div>
                             <div class="hex hex-back">
                                 <p class="text-[#E05E6A] roboto mt-[50%]">
                                     Ja sam CSS
@@ -111,7 +111,8 @@
                     </div>
                     <div class="hex-box">
                         <div class="hex-inner">
-                            <div class="hex hex-front"><img src="https://dumaaas.github.io/portfolio/public/images/js.png" alt="some"></div>
+                            <div class="hex hex-front"><img
+                                    src="https://dumaaas.github.io/portfolio/public/images/js.png" alt="some"></div>
                             <div class="hex hex-back">
                                 <p class="text-[#E05E6A] roboto mt-[50%]">
                                     Ja sam JS
@@ -121,17 +122,20 @@
                     </div>
                     <div class="hex-box">
                         <div class="hex-inner">
-                            <div class="hex hex-front"><img src="https://dumaaas.github.io/portfolio/public/images/react.png" alt="some"></div>
+                            <div class="hex hex-front"><img
+                                    src="https://dumaaas.github.io/portfolio/public/images/react.png" alt="some"></div>
                             <div class="hex hex-back">
                                 <p class="text-[#E05E6A] roboto mt-[50%]">
                                     Ja sam React
                                 </p>
                             </div>
                         </div>
+
                     </div>
                     <div class="hex-box">
                         <div class="hex-inner">
-                            <div class="hex hex-front"><img src="https://dumaaas.github.io/portfolio/public/images/vue.png" alt="some"></div>
+                            <div class="hex hex-front"><img
+                                    src="https://dumaaas.github.io/portfolio/public/images/vue.png" alt="some"></div>
                             <div class="hex hex-back">
                                 <p class="text-[#E05E6A] roboto mt-[50%]">
                                     Ja sam VueJS
@@ -142,17 +146,25 @@
 
                 </div>
             </div>
-
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#E05E6A" fill-opacity="1" d="M0,64L120,85.3C240,107,480,149,720,192C960,235,1200,277,1320,298.7L1440,320L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+              </svg> -->
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path fill="#E05E6A" fill-opacity="1"
                     d="M0,128L48,154.7C96,181,192,235,288,224C384,213,480,139,576,112C672,85,768,107,864,133.3C960,160,1056,192,1152,186.7C1248,181,1344,139,1392,117.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
                 </path>
             </svg>
         </section>
-        <section class="h-[500px] bg-[#E05E6A]">
-
+        <section class="pt-2 h-[500px] bg-[#E05E6A]">
+            <div class="flex justify-between w-[1300px] mx-auto px-[30px]">
+                <div>
+                    <h1 class="text-[42px] text-white font-semibold roboto">
+                        Hellou picko
+                    </h1>
         </section>
     </main>
+
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
